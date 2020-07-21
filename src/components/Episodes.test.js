@@ -110,9 +110,9 @@ test("Re-renders correctly with list of episodes", () => {
                 }
             }
             }
-    ];
+    ]
 
-    const { rerender } = render(<Episodes episodes={mockData} />);
+    const { rerender } = render(<Episodes episodes={mockData} />)
 
-    rerender(<Episodes episodes={mockData} />);
+    rerender(<Episodes episodes={mockData} />)
 })
